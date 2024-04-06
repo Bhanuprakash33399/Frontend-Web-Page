@@ -1,0 +1,134 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins' , sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #080808;
+  color: #fff;
+}
+.uiux{
+  width: 500px;
+  height: auto;
+}
+#header{
+  width: 100%;
+  height: 10vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 120px;
+}
+.logo{
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  padding-left: 130px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  transition: 0.5s;
+  left: 0;
+  bottom: -6px;
+}
+nav ul li a:hover::after{
+  width: 100%;
+}
+main {
+   padding: 20px;
+}
+.image-text {
+   display: flex; 
+   align-items: center; 
+} 
+.image-text img {
+  margin-right: 60px; 
+}
+.image-text p {
+  font-size: 1.5em; 
+}
+section{
+  padding: 40px ;
+}
+.services h1{
+  font-size: 40px;
+}
+.services ul li{
+  font-size: 20px;
+  padding-left: 10px;
+  padding: 10px;
+}
+.tex p{
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  color: rgb(87, 249, 249);
+}
+.tex{
+  padding: 20px;
+}
+.tex h2{
+  font-size: 2em;
+  padding-bottom: 20px;
+  color: #fc7a52;
+}
+.tex h3{
+  
+  font-size:1.5em;
+  padding-bottom: 10px;
+}
+.tex h4{
+  padding-left: 20px;
+  font-size:1.0em;
+  padding-bottom: 10px;
+  color: rgba(239, 172, 172, 0.5);
+}
+form button{
+  color: #f8f7f7;
+  background-color: #009dff;
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+}
+form{
+  font-size: 30px;
+}
+form #name{
+  color: #080808;
+  width: 150px;
+  height:30px;
+}
+form #email{
+  color: #080808;
+  width: 150px;
+  height:30px;
+}
+form #message{
+  color: #080808;
+  width: 150px;
+  height:30px;
+}
